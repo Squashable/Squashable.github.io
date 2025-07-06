@@ -107,7 +107,7 @@ function Home() {
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="App">
         <Navbar />
         <div style={{ height: '20px' }} />
