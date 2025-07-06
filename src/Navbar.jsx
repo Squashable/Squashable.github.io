@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./navbar.css";
 
 const pageMap = {
@@ -15,8 +16,8 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <a href="/" className={currentPage === "" ? "active" : ""}>Home</a>
-      <a href="/Artifical" className={currentPage === "Artifical" ? "active" : ""}>AI Perspective</a>
+      <Link to="/" className={currentPage === "" ? "active" : ""}>Home</Link>
+      <Link to="/Artifical" className={currentPage === "Artifical" ? "active" : ""}>AI Perspective</Link>
       <div
         className="dropdown"
         onMouseEnter={() => setDropdownOpen(true)}
@@ -29,16 +30,16 @@ const Navbar = () => {
           </svg>
         </button>
         <div className="dropdown-content" style={{ display: dropdownOpen ? "block" : "none" }}>
-          <a href="website-turret.html">Turret</a>
-          <a href="website-model-rail.html">Model Rail</a>
-          <a href="website-project.html">Website Building</a>
-          <a href="Project04.html">Future Project 04</a>
-          <a href="Project05.html">Future Project 05</a>
-          <a href="Project06.html">Future Project 06</a>
-          <a href="Project07.html">Future Project 07</a>
-          <a href="Project08.html">Future Project 08</a>
-          <a href="Project09.html">Future Project 09</a>
-          <a href="Project10.html">Future Project 10</a>
+          <Link to="/website-turret.html">Turret</Link>
+          <Link to="/website-model-rail.html">Model Rail</Link>
+          <Link to="/website-project.html">Website Building</Link>
+          <Link to="/Project04.html">Future Project 04</Link>
+          <Link to="/Project05.html">Future Project 05</Link>
+          <Link to="/Project06.html">Future Project 06</Link>
+          <Link to="/Project07.html">Future Project 07</Link>
+          <Link to="/Project08.html">Future Project 08</Link>
+          <Link to="/Project09.html">Future Project 09</Link>
+          <Link to="/Project10.html">Future Project 10</Link>
         </div>
       </div>
     </nav>
