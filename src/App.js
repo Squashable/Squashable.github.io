@@ -63,8 +63,8 @@ function Home() {
           <h2 style={{ marginTop: 0 }}>Welcome!</h2>
           <p>
             Hi, I'm Josh Hudgell.<br />
-            This is my portfolio. This is the begining of my react website, this version is just testing,<br />
-            development please keep and eye on this page for more project and updates.
+            This is my portfolio. This is the begining of my react website, this version is just testing<br />
+            and development please keep and eye on this page for more project and updates.
           </p>
         </div>
         <div className="div11" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
