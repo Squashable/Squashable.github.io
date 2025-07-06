@@ -1,0 +1,91 @@
+/* --- React Navbar: HTML-matched styles --- */
+.navbar {
+  background: linear-gradient(90deg, #eaf4fb 0%, #dbeafe 100%);
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(34,44,68,0.06);
+  border-radius: 12px;
+  margin: 24px auto 0 auto;
+  max-width: 900px;
+  border-left: 2px solid #eaf4fb;
+  border-right: 2px solid #eaf4fb;
+  /* Adjust border color as needed */
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.navbar a, .dropdown .dropbtn {
+  color: #222c44;
+  padding: 14px 20px;
+  text-decoration: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: inherit;
+  transition: background 0.2s, color 0.2s;
+  border-radius: 8px;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: #b5d6f6;
+  color: #171f83;
+}
+
+.navbar a.active {
+  background-color: #90caf9;
+  color: #171f83;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: #fff;
+  min-width: 180px;
+  box-shadow: 0px 8px 16px rgba(34,44,68,0.08);
+  top: 50px;
+  z-index: 1001;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.dropdown-content a {
+  color: #222c44;
+  padding: 10px 16px;
+  text-decoration: none;
+  display: block;
+  background: none;
+  transition: background 0.2s, color 0.2s;
+}
+.dropdown-content a:hover {
+  background: #e3f0fb;
+  color: #171f83;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 700px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .navbar a,
+  .dropdown .dropbtn {
+    width: 100%;
+    text-align: left;
+  }
+  .dropdown-content {
+    position: static;
+    box-shadow: none;
+  }
+}
+/* --- End React Navbar: HTML-matched styles --- */
