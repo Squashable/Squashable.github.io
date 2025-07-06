@@ -8,12 +8,12 @@ const pageMap = {
   "/website-turret.html": "Turret",
   "/website-model-rail.html": "Model Rail",
   "/website-project.html": "Website Building",
-  "/Project04.html": "Future Project 04",
-  "/Project05.html": "Future Project 05",
-  "/Project06.html": "Future Project 06",
-  "/Project07.html": "Future Project 07",
-  "/Project08.html": "Future Project 08",
-  "/Project09.html": "Future Project 09",
+  "/Project04.html": "Future Project 4",
+  "/Project05.html": "Future Project 0",
+  "/Project06.html": "Future Project 6",
+  "/Project07.html": "Future Project 7",
+  "/Project08.html": "Future Project 8",
+  "/Project09.html": "Future Project 0",
   "/Project10.html": "Future Project 10"
 };
 
