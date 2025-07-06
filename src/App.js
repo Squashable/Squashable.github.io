@@ -4,6 +4,16 @@ import logo from './logo.svg';
 import './App.css';
 import Navbar from './Navbar';
 import Artificial from './Artificial';
+import Turret from './Turret';
+import ModelRail from './ModelRail';
+import WebsiteProject from './WebsiteProject';
+import Project04 from './Project04';
+import Project05 from './Project05';
+import Project06 from './Project06';
+import Project07 from './Project07';
+import Project08 from './Project08';
+import Project09 from './Project09';
+import Project10 from './Project10';
 
 const divStyle = {
   background: 'linear-gradient(90deg, #eaf4fb 0%, #dbeafe 100%)',
@@ -114,6 +124,16 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Artifical" element={<Artificial />} />
+          <Route path="/website-turret.html" element={<Turret />} />
+          <Route path="/website-model-rail.html" element={<ModelRail />} />
+          <Route path="/website-project.html" element={<WebsiteProject />} />
+          <Route path="/Project04.html" element={<Project04 />} />
+          <Route path="/Project05.html" element={<Project05 />} />
+          <Route path="/Project06.html" element={<Project06 />} />
+          <Route path="/Project07.html" element={<Project07 />} />
+          <Route path="/Project08.html" element={<Project08 />} />
+          <Route path="/Project09.html" element={<Project09 />} />
+          <Route path="/Project10.html" element={<Project10 />} />
         </Routes>
       </div>
     </Router>
