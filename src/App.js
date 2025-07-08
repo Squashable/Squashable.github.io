@@ -1,6 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import logo from './logo.svg';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Navbar from './Navbar';
 import Artificial from './Artificial';
@@ -71,7 +70,7 @@ function Home() {
           <div style={imgContainerStyle}>
             <img
               src="/me.jpg"
-              alt="Photo of me"
+              alt="Josh Hudgell"
               style={imgStyle}
             />
           </div>
@@ -123,17 +122,17 @@ function App() {
         <div style={{ height: '20px' }} />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/Artifical" element={<Artificial />} />
-          <Route path="/website-turret.html" element={<Turret />} />
-          <Route path="/website-model-rail.html" element={<ModelRail />} />
-          <Route path="/website-project.html" element={<WebsiteProject />} />
-          <Route path="/Project04.html" element={<Project04 />} />
-          <Route path="/Project05.html" element={<Project05 />} />
-          <Route path="/Project06.html" element={<Project06 />} />
-          <Route path="/Project07.html" element={<Project07 />} />
-          <Route path="/Project08.html" element={<Project08 />} />
-          <Route path="/Project09.html" element={<Project09 />} />
-          <Route path="/Project10.html" element={<Project10 />} />
+          <Route path="/artificial" element={<Artificial />} />
+          <Route path="/turret" element={<Turret />} />
+          <Route path="/model-rail" element={<ModelRail />} />
+          <Route path="/website-project" element={<WebsiteProject />} />
+          <Route path="/project04" element={<Project04 />} />
+          <Route path="/project05" element={<Project05 />} />
+          <Route path="/project06" element={<Project06 />} />
+          <Route path="/project07" element={<Project07 />} />
+          <Route path="/project08" element={<Project08 />} />
+          <Route path="/project09" element={<Project09 />} />
+          <Route path="/project10" element={<Project10 />} />
         </Routes>
       </div>
     </Router>
