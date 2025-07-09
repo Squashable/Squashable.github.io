@@ -1,5 +1,6 @@
 import React from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import logo from './logo.svg';
 import './App.css';
 import Navbar from './Navbar';
 import Artificial from './Artificial';
@@ -70,7 +71,7 @@ function Home() {
           <div style={imgContainerStyle}>
             <img
               src="/me.jpg"
-              alt="Josh Hudgell"
+              alt="Photo of me"
               style={imgStyle}
             />
           </div>

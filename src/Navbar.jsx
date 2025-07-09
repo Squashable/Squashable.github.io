@@ -28,7 +28,7 @@ const titleBoxStyle = {
   boxShadow: '0 2px 8px rgba(34,44,68,0.06)',
   maxWidth: '700px',
   textAlign: 'center',
-  display: 'block',
+  display: 'block', 
 };
 
 const Navbar = () => {
@@ -67,7 +67,7 @@ const Navbar = () => {
             <div className="dropdown-content">
               <Link to="/turret" onClick={() => setDropdownOpen(false)}>Turret</Link>
               <Link to="/model-rail" onClick={() => setDropdownOpen(false)}>Model Rail</Link>
-              <Link to="/website-project" onClick={() => setDropdownOpen(false)}>Website Building</Link>
+              <Link to="/website-project" onClick={() => setDropdownOpen(false)}>Website Building</Link>  
               <Link to="/project04" onClick={() => setDropdownOpen(false)}>Future Project 04</Link>
               <Link to="/project05" onClick={() => setDropdownOpen(false)}>Future Project 05</Link>
               <Link to="/project06" onClick={() => setDropdownOpen(false)}>Future Project 06</Link>
