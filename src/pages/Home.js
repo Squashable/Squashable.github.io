@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjectCard from '../components/ProjectCard';
-import { allProjectsForHomePage, uniProjects } from '../project-data';
+import { mainProjects, uniProjects } from '../project-data';
 import './Home.css';
 
 export default function Home() {
@@ -25,7 +25,7 @@ export default function Home() {
       </div>
       <h2 className="section-header">Personal Projects</h2>
       <div className="project-grid">
-        {allProjectsForHomePage.map((project) => (
+        {mainProjects.map((project) => (
           <ProjectCard
             key={project.path}
             title={project.title}

@@ -12,7 +12,10 @@ import WebsiteProject from './WebsiteProject';
 import ProjectPage from './components/ProjectPage';
 
 // Data Imports
-import { futureProjects, uniProjects } from './project-data';
+import { mainProjects, uniProjects } from './project-data';
+
+const specificProjectPaths = ['turret', 'model-rail', 'website-project'];
+const genericProjects = mainProjects.filter(p => !specificProjectPaths.includes(p.path));
 
 function App() {
   return (
@@ -30,7 +33,7 @@ function App() {
           <Route path="/website-project" element={<WebsiteProject />} />
 
           {/* Dynamically generated routes */}
-          {[...futureProjects, ...uniProjects].map(project => (
+          {[...genericProjects, ...uniProjects].map(project => (
             <Route
               key={project.path}
               path={`/${project.path}`}

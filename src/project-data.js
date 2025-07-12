@@ -17,26 +17,109 @@ export const mainProjects = [
     text: 'The React-based portfolio website you are currently viewing.',
     image: '/me.jpg',
   },
-];
-
-export const futureProjects = Array.from({ length: 7 }, (_, i) => {
-  const num = String(i + 4).padStart(2, '0');
-  return {
-    path: `project${num}`,
-    title: `Future Project ${num}`,
+  {
+    path: 'project04',
+    title: 'Future Project 04',
     text: 'Details coming soon for a new and exciting project. Stay tuned!',
     image: '/me.jpg',
-  };
-});
+  },
+  {
+    path: 'project05',
+    title: 'Future Project 05',
+    text: 'Details coming soon for a new and exciting project. Stay tuned!',
+    image: '/me.jpg',
+  },
+  {
+    path: 'project06',
+    title: 'Future Project 06',
+    text: 'Details coming soon for a new and exciting project. Stay tuned!',
+    image: '/me.jpg',
+  },
+  {
+    path: 'project07',
+    title: 'Future Project 07',
+    text: 'Details coming soon for a new and exciting project. Stay tuned!',
+    image: '/me.jpg',
+  },
+  {
+    path: 'project08',
+    title: 'Future Project 08',
+    text: 'Details coming soon for a new and exciting project. Stay tuned!',
+    image: '/me.jpg',
+  },
+  {
+    path: 'project09',
+    title: 'Future Project 09',
+    text: 'Details coming soon for a new and exciting project. Stay tuned!',
+    image: '/me.jpg',
+  },
+  {
+    path: 'project10',
+    title: 'Future Project 10',
+    text: 'Details coming soon for a new and exciting project. Stay tuned!',
+    image: '/me.jpg',
+  },
+];
 
-export const uniProjects = Array.from({ length: 10 }, (_, i) => {
-    const num = String(i + 1).padStart(2, '0');
-    return {
-      path: `uni-project${num}`,
-      title: `University Project ${num}`,
-      text: 'A project from my university studies. Details coming soon.',
-      image: '/me.jpg',
-    };
-});
-
-export const allProjectsForHomePage = [...mainProjects, ...futureProjects];
+export const uniProjects = [
+  {
+    path: 'uni-project01',
+    title: 'University Project 01',
+    text: 'A project from my university studies. Details coming soon.',
+    image: '/me.jpg',
+  },
+  {
+    path: 'uni-project02',
+    title: 'University Project 02',
+    text: 'A project from my university studies. Details coming soon.',
+    image: '/me.jpg',
+  },
+  {
+    path: 'uni-project03',
+    title: 'University Project 03',
+    text: 'A project from my university studies. Details coming soon.',
+    image: '/me.jpg',
+  },
+  {
+    path: 'uni-project04',
+    title: 'University Project 04',
+    text: 'A project from my university studies. Details coming soon.',
+    image: '/me.jpg',
+  },
+  {
+    path: 'uni-project05',
+    title: 'University Project 05',
+    text: 'A project from my university studies. Details coming soon.',
+    image: '/me.jpg',
+  },
+  {
+    path: 'uni-project06',
+    title: 'University Project 06',
+    text: 'A project from my university studies. Details coming soon.',
+    image: '/me.jpg',
+  },
+  {
+    path: 'uni-project07',
+    title: 'University Project 07',
+    text: 'A project from my university studies. Details coming soon.',
+    image: '/me.jpg',
+  },
+  {
+    path: 'uni-project08',
+    title: 'University Project 08',
+    text: 'A project from my university studies. Details coming soon.',
+    image: '/me.jpg',
+  },
+  {
+    path: 'uni-project09',
+    title: 'University Project 09',
+    text: 'A project from my university studies. Details coming soon.',
+    image: '/me.jpg',
+  },
+  {
+    path: 'uni-project10',
+    title: 'University Project 10',
+    text: 'A project from my university studies. Details coming soon.',
+    image: '/me.jpg',
+  },
+];
