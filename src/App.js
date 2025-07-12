@@ -1,6 +1,7 @@
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
 import React from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './Navbar';
 import Artificial from './Artificial';
@@ -15,101 +16,112 @@ import Project08 from './Project08';
 import Project09 from './Project09';
 import Project10 from './Project10';
 
-const divStyle = {
-  background: 'linear-gradient(90deg, #eaf4fb 0%, #dbeafe 100%)',
-  borderRadius: '8px',
-  boxShadow: '0 8px 32px rgba(0,0,0,0.08)',
-  padding: '18px 28px',
-  textAlign: 'left'
-};
+const projects = [
+  {
+    title: 'AI Turret',
+    text: 'A project involving computer vision and robotics to track and aim at targets.',
+    link: '#/turret',
+    image: '/me.jpg',
+  },
+  {
+    title: 'Model Rail',
+    text: 'A model railway project with custom electronics and automation.',
+    link: '#/model-rail',
+    image: '/me.jpg',
+  },
+  {
+    title: 'Portfolio Website',
+    text: 'The React-based portfolio website you are currently viewing.',
+    link: '#/website-project',
+    image: '/me.jpg',
+  },
+  {
+    title: 'Future Project 04',
+    text: 'Details coming soon for a new and exciting project. Stay tuned!',
+    link: '#/project04',
+    image: '/me.jpg',
+  },
+  {
+    title: 'Future Project 05',
+    text: 'Details coming soon for a new and exciting project. Stay tuned!',
+    link: '#/project05',
+    image: '/me.jpg',
+  },
+  {
+    title: 'Future Project 06',
+    text: 'Details coming soon for a new and exciting project. Stay tuned!',
+    link: '#/project06',
+    image: '/me.jpg',
+  },
+  {
+    title: 'Future Project 07',
+    text: 'Details coming soon for a new and exciting project. Stay tuned!',
+    link: '#/project07',
+    image: '/me.jpg',
+  },
+  {
+    title: 'Future Project 08',
+    text: 'Details coming soon for a new and exciting project. Stay tuned!',
+    link: '#/project08',
+    image: '/me.jpg',
+  },
+  {
+    title: 'Future Project 09',
+    text: 'Details coming soon for a new and exciting project. Stay tuned!',
+    link: '#/project09',
+    image: '/me.jpg',
+  },
+  {
+    title: 'Future Project 10',
+    text: 'Details coming soon for a new and exciting project. Stay tuned!',
+    link: '#/project10',
+    image: '/me.jpg',
+  },
+];
 
-const imgContainerStyle = {
-  background: 'linear-gradient(90deg, #eaf4fb 0%, #dbeafe 100%)',
-  borderRadius: '8px',
-  boxShadow: '0 8px 32px rgba(0,0,0,0.08)',
-  padding: '5px',
-  flex: '0 0 auto',
-  display: 'inline-block'
-};
-
-const imgStyle = {
-  maxWidth: '225px', // Shrunk to half the previous size
-  boxShadow: '0 4px 16px rgba(0,0,0,0.10)',
-  border: '2px solid #eaf4fb',
-  background: '#dbeafe'
-};
-
-const flexRow = {
-  display: 'flex',
-  alignItems: 'center',
-  justifyContent: 'center',
-  gap: '32px',
-  marginBottom: '32px',
-};
-
-const gridStyle = {
-  display: 'grid',
-  gridTemplateColumns: '1fr 1fr',
-  gap: '24px',
-  maxWidth: '950px',
-  margin: '0 auto',
-};
+function ProjectCard({ title, text, link, image }) {
+  return (
+    <Card>
+      <Card.Img variant="top" src={image} />
+      <Card.Body>
+        <Card.Title>{title}</Card.Title>
+        <Card.Text>{text}</Card.Text>
+        <Button variant="primary" href={link}>View Project</Button>
+      </Card.Body>
+    </Card>
+  );
+}
 
 function Home() {
   return (
     <div className="parent">
-      <div style={flexRow}>
-        <div className="div10" style={divStyle}>
-          <h2 style={{ marginTop: 0 }}>Welcome!</h2>
+      <div className="welcome-section">
+        <div className="welcome-text">
+          <h2>Welcome!</h2>
           <p>
             Hi, I'm Josh Hudgell.<br />
             This is my portfolio. This is the begining of my react website, this version is just testing<br />
             and development please keep and eye on this page for more project and updates.
           </p>
         </div>
-        <div className="div11" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-          <div style={imgContainerStyle}>
-            <img
-              src="/me.jpg"
-              alt="Photo of me"
-              style={imgStyle}
-            />
-          </div>
+        <div className="welcome-image-container">
+          <img
+            src="/me.jpg"
+            alt="Photo of me"
+            className="welcome-image"
+          />
         </div>
       </div>
-      <div style={gridStyle}>
-        <div className="div13" style={divStyle}>
-          HAMLET (Act 3, Scene 1):<br />
-          "To be, or not to be: that is the question:<br />
-          Whether 'tis nobler in the mind to suffer<br />
-          The slings and arrows of outrageous fortune,<br />
-          Or to take arms against a sea of troubles,<br />
-          And by opposing end them...
-        </div>
-        <div className="div14" style={divStyle}>
-          HAMLET (Act 3, Scene 1):<br />
-          "To be, or not to be: that is the question:<br />
-          Whether 'tis nobler in the mind to suffer<br />
-          The slings and arrows of outrageous fortune,<br />
-          Or to take arms against a sea of troubles,<br />
-          And by opposing end them...
-        </div>
-        <div className="div17" style={divStyle}>
-          HAMLET (Act 3, Scene 1):<br />
-          "To be, or not to be: that is the question:<br />
-          Whether 'tis nobler in the mind to suffer<br />
-          The slings and arrows of outrageous fortune,<br />
-          Or to take arms against a sea of troubles,<br />
-          And by opposing end them...
-        </div>
-        <div className="div18" style={divStyle}>
-          HAMLET (Act 3, Scene 1):<br />
-          "To be, or not to be: that is the question:<br />
-          Whether 'tis nobler in the mind to suffer<br />
-          The slings and arrows of outrageous fortune,<br />
-          Or to take arms against a sea of troubles,<br />
-          And by opposing end them...
-        </div>
+      <div className="project-grid">
+        {projects.map((project, index) => (
+          <ProjectCard
+            key={index}
+            title={project.title}
+            text={project.text}
+            link={project.link}
+            image={project.image}
+          />
+        ))}
       </div>
     </div>
   );
@@ -120,7 +132,7 @@ function App() {
     <Router basename={process.env.PUBLIC_URL}>
       <div className="App">
         <Navbar />
-        <div style={{ height: '20px' }} />
+        <div className="spacer" />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/artificial" element={<Artificial />} />
@@ -139,5 +151,6 @@ function App() {
     </Router>
   );
 }
+
 
 export default App;
