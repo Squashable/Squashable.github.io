@@ -15,6 +15,16 @@ import Project07 from './Project07';
 import Project08 from './Project08';
 import Project09 from './Project09';
 import Project10 from './Project10';
+import UniProject01 from './UniProject01';
+import UniProject02 from './UniProject02';
+import UniProject03 from './UniProject03';
+import UniProject04 from './UniProject04';
+import UniProject05 from './UniProject05';
+import UniProject06 from './UniProject06';
+import UniProject07 from './UniProject07';
+import UniProject08 from './UniProject08';
+import UniProject09 from './UniProject09';
+import UniProject10 from './UniProject10';
 
 const projects = [
   {
@@ -146,6 +156,16 @@ function App() {
           <Route path="/project08" element={<Project08 />} />
           <Route path="/project09" element={<Project09 />} />
           <Route path="/project10" element={<Project10 />} />
+          <Route path="/uni-project01" element={<UniProject01 />} />
+          <Route path="/uni-project02" element={<UniProject02 />} />
+          <Route path="/uni-project03" element={<UniProject03 />} />
+          <Route path="/uni-project04" element={<UniProject04 />} />
+          <Route path="/uni-project05" element={<UniProject05 />} />
+          <Route path="/uni-project06" element={<UniProject06 />} />
+          <Route path="/uni-project07" element={<UniProject07 />} />
+          <Route path="/uni-project08" element={<UniProject08 />} />
+          <Route path="/uni-project09" element={<UniProject09 />} />
+          <Route path="/uni-project10" element={<UniProject10 />} />
         </Routes>
       </div>
     </Router>
