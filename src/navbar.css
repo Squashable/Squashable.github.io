@@ -1,4 +1,3 @@
-/* --- React Navbar: HTML-matched styles --- */
 .navbar {
   background: linear-gradient(90deg, #eaf4fb 0%, #dbeafe 100%);
   display: flex;
@@ -88,4 +87,4 @@
     box-shadow: none;
   }
 }
-/* --- End React Navbar: HTML-matched styles --- */
+
