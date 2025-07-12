@@ -1,0 +1,23 @@
+.section-header {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2c3e50; /* Matches the welcome header color */
+  margin-top: 60px;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.section-header::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: #3498db; /* A blue to match your primary buttons */
+  margin: 15px auto 0;
+  border-radius: 2px;
+}
+
+.welcome-section + .section-header {
+  margin-top: 32px;
+}
