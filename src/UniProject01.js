@@ -173,52 +173,15 @@ void loop() {
         </pre>
       </section>
 
-      {/*
+      <section>
+        <h2>Week Five</h2>
+        <p>Week five will be spent trying to build the two arm linkage. This isn’t something I can’t just do, I’m not used to CAD software.
+          I’ve attempted to create the base of the arm, that will attach to the bin itself It will be a long one because I also have a deadline for practical electronics due next week.
+          The joints are currently my pain pain point. I’m not sure how to make multiple points and make something that could screw into another component.
+        </p>
+      </section>
+
       
-      
-      
-      <section>
-        <h2>Components & Materials</h2>
-        <p><strong>Hardware:</strong> Arduino nano r4, ultrasonic sensor.</p>
-        <p><strong>Software:</strong> Libraries, frameworks, and any models used.</p>
-        <p><strong>Other:</strong> Tools, fabrication notes, 3D-printed parts.</p>
-      </section>
-
-      <section>
-        <h2>Design & System Architecture</h2>
-        <p>High-level description of how the system is structured (block diagram language):</p>
-        <p><strong>Sensor layer:</strong> which sensors feed what information.</p>
-        <p><strong>Processing layer:</strong> microcontroller/PC, decision logic.</p>
-        <p><strong>Actuation layer:</strong> motors/servos that perform actions.</p>
-      </section>
-
-      <section>
-        <h2>Implementation</h2>
-        <p><strong>Step 1 —</strong> prototyping and initial tests.</p>
-        <p><strong>Step 2 —</strong> integration of hardware components.</p>
-        <p><strong>Step 3 —</strong> software: control loops, algorithms, and testing.</p>
-        <p><strong>Step 4 —</strong> enclosure and final assembly.</p>
-      </section>
-
-      <section>
-        <h2>Results</h2>
-        <p>Summarise what worked, measurements, failure modes, and screenshots or photos (add images below).</p>
-        <div>
-          <img src="/media/placeholder.png" alt="photo" style={{ maxWidth: '100%', marginTop: 12 }} />
-        </div>
-      </section>
-
-      <section>
-        <h2>Future Work</h2>
-        <p>Things to improve or next features to add. Potential research or optimisations.</p>
-      </section>
-
-      <section>
-        <h2>References & Links</h2>
-        <p>Link to repository or relevant docs. Datasheets, libraries, tutorials used.</p>
-      </section>
-
-      */}
       <section>
         <h2>Scanned log book pages</h2>
         <p style={{ color: '#666' }}></p>
