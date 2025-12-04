@@ -20,7 +20,10 @@ export default function UniProject01() {
         <h2>Plan</h2>
         <p> the plan for the project was going to be incredibly complicated. I awas going to have the bin talk to you
           depending on the interactions if the bin is full or you are putting rubbish in it. However after looking getting 
-          sound files working on ESP32
+          sound files working on ESP32 it seemed like a headache; converting to .wav then compressing it a bunch just to get 
+          it to work on the board. I will just do that with a raspberry pi zero w2 in the future version of this project.
+          So the final plan is a Arduino nano R4 as the brain, an ultrasonic sensor, an IR sensor and three LEDS to make sure 
+          the project is a success.
 
         </p>
       </section>
