@@ -2,6 +2,7 @@ import React from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Navbar from './Navbar';
+import UniProject01 from './UniProject01';
 
 // Page and Component Imports
 import Home from './pages/Home';
@@ -31,6 +32,9 @@ function App() {
           <Route path="/turret" element={<Turret />} />
           <Route path="/model-rail" element={<ModelRail />} />
           <Route path="/website-project" element={<WebsiteProject />} />
+
+          {/* Specific route for the Uni Project page (renders the standalone component) */}
+          <Route path="/uni-project01" element={<UniProject01 />} />
 
           {/* Dynamically generated routes */}
           {[...genericProjects, ...uniProjects].map(project => (

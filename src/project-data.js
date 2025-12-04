@@ -64,8 +64,8 @@ export const mainProjects = [
 export const uniProjects = [
   {
     path: 'uni-project01',
-    title: 'University Project 01',
-    text: 'A project from my university studies. Details coming soon.',
+    title: 'Year 1 : Automated bin',
+    text: 'First mechatronics project for university. A BIN LID OPEN MACHINE.',
     image: '/me.jpg',
   },
   {

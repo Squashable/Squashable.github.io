@@ -15,7 +15,7 @@ const pageMap = {
   "/project08": "Future Project 8",
   "/project09": "Future Project 9",
   "/project10": "Future Project 10",
-  "/uni-project01": "University Project 1",
+  "/uni-project01": "Year 1 : Automated bin",
   "/uni-project02": "University Project 2",
   "/uni-project03": "University Project 3",
   "/uni-project04": "University Project 4",
@@ -118,7 +118,7 @@ const Navbar = () => {
           </button>
           {uniDropdownOpen && (
             <div className="dropdown-content">
-              <Link to="/uni-project01" onClick={() => setUniDropdownOpen(false)}>University Project 01</Link>
+              <Link to="/uni-project01" onClick={() => setUniDropdownOpen(false)}>Year 1 : Automated bin</Link>
               <Link to="/uni-project02" onClick={() => setUniDropdownOpen(false)}>University Project 02</Link>
               <Link to="/uni-project03" onClick={() => setUniDropdownOpen(false)}>University Project 03</Link>
               <Link to="/uni-project04" onClick={() => setUniDropdownOpen(false)}>University Project 04</Link>
