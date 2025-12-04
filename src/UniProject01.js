@@ -225,7 +225,6 @@ void loop() {
         <ImageCarousel bases={[ 'page_1', 'page_2', 'page_3', 'page_4', 'page_5', 'page_6', 'page_7' ]} interval={4000} height={420} />
       </section>
 
-      <p style={{ marginTop: 24, color: '#666' }}>Fill the sections above with your notes — I can help format images, code blocks, or export a printable version when you're ready.</p>
     </div>
   );
   
