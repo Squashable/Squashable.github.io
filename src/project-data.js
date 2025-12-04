@@ -66,7 +66,7 @@ export const uniProjects = [
     path: 'uni-project01',
     title: 'Year 1 : Automated bin',
     text: 'First mechatronics project for university. A BIN LID OPEN MACHINE.',
-    image: '/me.jpg',
+    image: '/testEnviroment.jpeg',
   },
   {
     path: 'uni-project02',

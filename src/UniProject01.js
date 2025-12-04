@@ -91,7 +91,6 @@ export default function UniProject01() {
           print the QR code and stick it in the log book.
           Here's a finalised version of the code the only thing that will change now is pin assignments. 
           </p> 
-        <p>Example command or snippet (replace with your code):</p>
         <pre style={{ background: '#f6f8fa', padding: 12, overflowX: 'auto', whiteSpace: 'pre', fontFamily: 'monospace', fontSize: '14px', textAlign: 'left', lineHeight: '1.5' }}>
 {`// Final code
 #include <NewPing.h>
