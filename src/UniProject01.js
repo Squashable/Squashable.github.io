@@ -198,7 +198,7 @@ void loop() {
           the final design needed a 10% shrink in size to fit into the printer so it came out all at once. Once my arm is no longer circulating blood wrong I should be able to have it assembled.
         </p>
         <div style={{ display: 'flex', gap: 12, marginTop: 12, flexWrap: 'wrap', alignItems: 'stretch', justifyContent: 'space-between' }}>
-          <img src="/3D_print1.png" alt="3D PCB render" style={{ flex: '1 1 22%', minWidth: 160, height: 220, objectFit: 'contain' }} />
+          <img src="/3d_print1.png" alt="3D PCB render" style={{ flex: '1 1 22%', minWidth: 160, height: 220, objectFit: 'contain' }} />
           <img src="/3d_print2.png" alt="3D print image" style={{ flex: '1 1 22%', minWidth: 160, height: 220, objectFit: 'contain' }} />
           <img src="/Final_Parts.jpg" alt="Final printed parts" style={{ flex: '1 1 22%', minWidth: 160, height: 220, objectFit: 'contain' }} />
           <img src="/Final_fusion.png" alt="Final Fusion 3D model" style={{ flex: '1 1 22%', minWidth: 160, height: 220, objectFit: 'contain' }} />
