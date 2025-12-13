@@ -1,5 +1,6 @@
 import React from 'react';
 import ImageCarousel from './components/ImageCarousel';
+import './UniProject01.css';
 export default function UniProject01() {
   return (
     <div style={{ padding: 20, maxWidth: 900, margin: '0 auto' }}>
@@ -38,7 +39,7 @@ export default function UniProject01() {
         </p>
       </section>
 
-      <section style={{ display: 'flex', gap: '20px', alignItems: 'flex-start' }}>
+      <section className="week-two">
         <div style={{ flex: 1 }}>
           <h2>Second week</h2>
           <p>I've aquired a Arduino nano R4 and soldered the pins to it, YAY that's the first time I've soldered something.
@@ -46,7 +47,7 @@ export default function UniProject01() {
             The project itself is coming together nicely, phisically, the Autodesk fusion work is another story. I will do that another day
           </p>
         </div>
-        <img src="/arduino.jpeg" alt="Second week project - Arduino nano R4" style={{ maxWidth: '300px', height: 'auto', minWidth: '200px' }} />
+        <img className="week-two-image" src="/arduino.jpeg" alt="Arduino nano R4" />
       </section>
 
       <section>
