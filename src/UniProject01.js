@@ -181,6 +181,52 @@ void loop() {
           I’ve attempted to create the base of the arm, that will attach to the bin itself It will be a long one because I also have a deadline for practical electronics due next week.
           The joints are currently my pain pain point. I’m not sure how to make multiple points and make something that could screw into another component.
         </p>
+        <p>
+           I was trying to get this done on autodesk fusion, however I got very annoyed with the way sketches were made for multiple bodies. So I started using SOLIDworks.
+          After a basic tutorial I’ve got some understanding of how it works. To get the curves in the design to make it look better. 
+        </p>
+        <p>
+               I ended up jumping between fusion and solid works, getting a little bit stunned, getting annoyed, going back to fusion, getting a little bit more done, going back to solid works, getting a little bit more done.
+            This process continued for about three hours until I landed on fusion and fusion worked.I’ve found a way to “fillet” the sides, it just makes the design look better. 
+            I’ve also fixed the holes so they are now the same height all the way through
+        </p>
+        <p>
+          The final design is included a bar instead of a hole between the two base attach points. This makes it easier to print the part. After being shown how to use fusion by a friend, 
+          doing the work became incredibly easy. Having someone help me through the little knacks of the software make my life easier. The final design uses a split end at the joint and a screw
+          point to keep it together and allow movement with two bigger circles on either side. 3D printing, now I understand it, will be able to solve a ton of different problems.
+          the final design needed a 10% shrink in size to fit into the printer so it came out all at once. Once my arm is no longer circulating blood wrong I should be able to have it assembled.
+        </p>
+        <div style={{ display: 'flex', gap: 12, marginTop: 12, flexWrap: 'wrap', alignItems: 'stretch', justifyContent: 'space-between' }}>
+          <img src="/3D_print1.png" alt="3D PCB render" style={{ flex: '1 1 22%', minWidth: 160, height: 220, objectFit: 'contain' }} />
+          <img src="/3d_print2.png" alt="3D print image" style={{ flex: '1 1 22%', minWidth: 160, height: 220, objectFit: 'contain' }} />
+          <img src="/Final_Parts.jpg" alt="Final printed parts" style={{ flex: '1 1 22%', minWidth: 160, height: 220, objectFit: 'contain' }} />
+          <img src="/Final_fusion.png" alt="Final Fusion 3D model" style={{ flex: '1 1 22%', minWidth: 160, height: 220, objectFit: 'contain' }} />
+        </div>
+      </section>
+
+      <section>
+        <h2>Week Six : Assembly</h2>
+        <p> Just from notes from week 5 for this one, this is not going to be fun because I don't know how much I'm going to be able to do, so I'm going to need people's help to get this working.
+           The react logos are there so I can just get the image placeholders.
+        </p>
+        <div style={{ display: 'flex', gap: 12, marginTop: 12, flexWrap: 'wrap', alignItems: 'stretch', justifyContent: 'space-between' }}>
+          <img src="/logo512.png" alt="3D PCB render" style={{ flex: '1 1 22%', minWidth: 160, height: 220, objectFit: 'contain' }} />
+          <img src="/logo512.png" alt="3D print image" style={{ flex: '1 1 22%', minWidth: 160, height: 220, objectFit: 'contain' }} />
+          <img src="/logo512.png" alt="Final printed parts" style={{ flex: '1 1 22%', minWidth: 160, height: 220, objectFit: 'contain' }} />
+          <img src="/logo512.png" alt="Final Fusion 3D model" style={{ flex: '1 1 22%', minWidth: 160, height: 220, objectFit: 'contain' }} />
+        </div>
+      </section>
+
+      <section>
+          <h2>Closing Thoughts  This is being spoken, my hand is killing me. Well, my Right arm is...</h2>
+        <p>
+           Final notes on the project, it's been quite challenging considering I looked to the brief and when I'm making a bin, you kidding?
+            They've never done 3D modelling before, never sold it. Honestly both ended up being great fun and great past times to the point where I've made a couple of things for myself.
+            My final joints, I'm just missing the screw hole for the bit that connects to the lid to the motor at the back. I've converted the bin from a 9 volt battery over to USB-C after I've figured out we aren't getting our PC... PCBs, which is fine because I enjoy pro-tobording anyway.
+            Well I've recently figured that out. The bin's now powered over USB-C so we DC to DC boost butt converter which I got from AliExpress and now I've known that's a thing, I will be using that combination a lot.
+            I had a problem where if it talks to a plug socket that doesn't purely provide power, obviously reasonable limits of power for the controller, it just refuses to give it power which I still haven't fixed but if I use exclusively a power cable, it's not a problem and it provides juice perfectly.
+            Power switch I'm still not sure on but to be honest it's well beyond the spec at this point. So I'm just very happy with everything as it is.
+        </p>
       </section>
 
       
@@ -189,7 +235,11 @@ void loop() {
         <p style={{ color: '#666' }}></p>
         <ImageCarousel bases={[ 'page_1', 'page_2', 'page_3', 'page_4', 'page_5', 'page_6', 'page_7' ]} interval={4000} height={420} />
       </section>
-
+      <section>
+        <h2>Scanned lecture notes.</h2>
+        <p style={{ color: '#666' }}></p>
+        <ImageCarousel bases={[ 'page_1', 'page_2', 'page_3', 'page_4', 'page_5', 'page_6', 'page_7' ]} interval={4000} height={420} />
+      </section>
     </div>
   );
   
